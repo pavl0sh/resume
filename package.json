@@ -35,7 +35,8 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "jquery": "^3.5.0",
-    "normalize.css": "^8.0.1"
+    "fullpage.js": "^3.0.8",
+    "normalize.css": "^8.0.1",
+    "typed.js": "^2.0.11"
   }
 }

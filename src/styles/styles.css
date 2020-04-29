@@ -3,8 +3,22 @@
 
 body {
     font-family: 'PressStart2P', sans-serif;
+    margin: 0;
 }
 
-h1 {
-    text-align: center;
+.section {
+    text-align:center;
 }
+
+.typeText {
+    font-size: 2em;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background-image: url("../assets/fungus.png");
+    background-size: cover;
+}
+
+
+
