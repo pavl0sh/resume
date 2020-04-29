@@ -1,5 +1,5 @@
 @import "~normalize.css";
-@import "fonts.css";
+@import "fonts";
 
 body {
     font-family: 'PressStart2P', sans-serif;
@@ -8,6 +8,18 @@ body {
 
 .section {
     text-align:center;
+    &__skills {
+        margin: 5rem;
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+    }
+    &__skills__block {
+        width: 100%;
+    }
+    &__skills__block > progress {
+        margin-bottom: 2%;
+    }
 }
 
 .typeText {
@@ -30,10 +42,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.nav__link {
-    margin-right: 2%;
+    &__link {
+        margin-right: 2%;
+    }
 }
 
 #typing-avatar {
