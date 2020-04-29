@@ -1,3 +1,4 @@
+import "nes.css/css/nes.min.css"
 import "../styles/fullpage.css"
 import "../styles/styles.css"
 import Typed from "typed.js"
@@ -5,9 +6,10 @@ import fullpage from "fullpage.js";
 
 const fullPageInstance = () => {
     new fullpage('#fullpage', {
-        sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C'],
+        sectionsColor: ['#1BBC9B', '#C63D0F', '#7E8F7C'],
         navigation: true,
-        navigationPosition: 'right'
+        navigationPosition: 'right',
+        fixedElements: 'nav'
     });
 }
 
