@@ -1,0 +1,26 @@
+[
+  {
+    "name": "html-css",
+    "value": 80
+  },
+  {
+    "name": "git",
+    "value": 80
+  },
+  {
+    "name": "javascript",
+    "value": 50
+  },
+  {
+    "name": "sql",
+    "value": 50
+  },
+  {
+    "name": "nodejs",
+    "value": 30
+  },
+  {
+    "name": "vue.js",
+    "value": 30
+  }
+]
