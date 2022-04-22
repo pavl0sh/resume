@@ -35,7 +35,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "fullpage.js": "^3.0.8",
+    "fullpage.js": "^4.0.5",
     "nes.css": "^2.3.0",
     "normalize.css": "^8.0.1",
     "typed.js": "^2.0.11"
